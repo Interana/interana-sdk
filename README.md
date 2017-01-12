@@ -20,17 +20,25 @@ Being provided at a best-effort basis. So please use at your risk.
 In addition, there are optional parameters that can be leveraged as well.
 
 * To access Interana's Demo Cluster and do a simple count*, do:
+
 `./ia_api_consumer.py tffZR6q0fbVqSBbeuvvLllLMLV0KHbuH+/DjXo9K=ER0PY/qNh+hdjEh+16DcL5Gc=BfHTJ7dE64x06YFWMbtbqtcdO90000 demo.interana.com music`
 
 (note this will only work when you are on the Interana Corporate Network)
 
 A sample output might look like this:
-`$ ./ia_api_consumer.py tffZR6q0fbVqSBbeuvvLllLMLV0KHbuH+/DjXo9K=ER0PY/qNh+hdjEh+16DcL5Gc=BfHTJ7dE64x06YFWMbtbqtcdO90000 demo.interana.com music
--------------------------------------------
-Results recieved from Interana:
--------------------------------------------
-{u'rows': [{u'values': [[u'All'], 4058569848.0]}], u'columns': [{u'type': u'array', u'label': [u'result']}, {u'type': u'number', u'label': u'measure_value'}]}
--------------------------------------------
-End of Results
--------------------------------------------
-`
+
+`$ ./ia_api_consumer.py tffZR6q0fbVqSBbeuvvLllLMLV0KHbuH+/DjXo9K=ER0PY/qNh+hdjEh+16DcL5Gc=BfHTJ7dE64x06YFWMbtbqtcdO90000 demo.interana.com music`
+
+`-------------------------------------------`
+
+`Results recieved from Interana:`
+
+`-------------------------------------------`
+
+`{u'rows': [{u'values': [[u'All'], 4058569848.0]}], u'columns': [{u'type': u'array', u'label': [u'result']}, {u'type': u'number', u'label': u'measure_value'}]}`
+
+`-------------------------------------------`
+
+`End of Results`
+
+`-------------------------------------------`
