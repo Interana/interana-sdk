@@ -33,13 +33,6 @@ def get_interana_data(token,url,days_prior,dataset,query_type,agg_type,
 		print "Query Params: ", query.get_params()
 
 	result = client.query(query)
-	#print(type(result))
-	#result_val = str(result)
-	#print result_val
-	#print ast.literal_eval(result_val)
-	#print json.dumps(ast.literal_eval(result_val))
-	#result_dict = json.loads(result_val)
-	#print(type(result_dict),result_dict)
 	if output_file:
 		print "-----------------------\nWriting out results to file..."
 		with open(output_file,"w") as fout:
