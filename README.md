@@ -1,10 +1,11 @@
-interana-sdk Readme
-============
+Overview
+==========
 
 This will contain a simplified SDK to enable easy access to the Interana APIs.
 Being provided at a best-effort basis. So please use at your risk.
 
-## High Level desciption of files
+High Level desciption of files
+==============================
 
 * **query_sdk\interana_client.py** - Python implementation of Interana SDK - Provides the Interana Object as a helper to query the Interana External API as documented [here](https://docs.interania.com/Guides/Reference/External_API%3A_query)
 
@@ -12,7 +13,8 @@ Being provided at a best-effort basis. So please use at your risk.
 
 * **ia_api_consumer.py** - Uses the Python SDK. Provides for further abstraction of the Interana Query API. Allows for easy access and validation to ensure that connectivity and results are as needed. Fork at will :)
 
-## Usage
+Usage
+=====
 
 * Currently, the API Consumer utility only supports the Query APIs
 
@@ -42,3 +44,19 @@ A sample output might look like this:
 `End of Results`
 
 `-------------------------------------------`
+
+How to Contribute
+==================
+Simple. Feel free to jump in and contribute code. Some of the immediate next steps are:
+* R implementation
+* MS-Excel (Windows only) implementation
+* Jupyter Notebook
+* Perl Implementation
+
+Support & License
+=======
+## Support
+The SDK is provided on a best-effort basis only. All support will be community-driven only.
+
+## License
+We have adopted the MIT license (see the file LICENSE.txt) for this project.
