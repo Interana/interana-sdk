@@ -19,5 +19,18 @@ Being provided at a best-effort basis. So please use at your risk.
 * For the API Consumer script, there are three position parameters that need to be provided.
 In addition, there are optional parameters that can be leveraged as well.
 
-* To access the Atlassian cluster and do a simple count*, do:
-./ia_api_consumer.py dr7AAV6SEd5GqkC734GwGwQuVgDTBhuG0sSHWb=fsE0k+AB6v3mJVnJuHMaMklt+3GcUeIR=xoCOAQLHCCZlTPjEqazw0000 atlassian-staging.interana.com atl_test_whitelist
+* To access Interana's Demo Cluster and do a simple count*, do:
+`./ia_api_consumer.py tffZR6q0fbVqSBbeuvvLllLMLV0KHbuH+/DjXo9K=ER0PY/qNh+hdjEh+16DcL5Gc=BfHTJ7dE64x06YFWMbtbqtcdO90000 demo.interana.com music`
+
+(note this will only work when you are on the Interana Corporate Network)
+
+A sample output might look like this:
+`$ ./ia_api_consumer.py tffZR6q0fbVqSBbeuvvLllLMLV0KHbuH+/DjXo9K=ER0PY/qNh+hdjEh+16DcL5Gc=BfHTJ7dE64x06YFWMbtbqtcdO90000 demo.interana.com music
+-------------------------------------------
+Results recieved from Interana:
+-------------------------------------------
+{u'rows': [{u'values': [[u'All'], 4058569848.0]}], u'columns': [{u'type': u'array', u'label': [u'result']}, {u'type': u'number', u'label': u'measure_value'}]}
+-------------------------------------------
+End of Results
+-------------------------------------------
+`
