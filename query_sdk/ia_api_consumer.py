@@ -5,7 +5,7 @@ import datetime
 import argparse
 import ast
 
-from query_sdk.interana_client import Client, Query
+from python.interana_client import Client, Query
 
 def get_interana_data(token,url,days_prior,dataset,query_type,agg_type,
 			verbose_mode=False, groupby_col='', 
