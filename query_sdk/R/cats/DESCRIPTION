@@ -1,0 +1,10 @@
+Package: cats
+Title: Just a foobar package about cats
+Version: 0.0.0.9000
+Authors@R: person("Sachin", "Holla", email = "sachin@interana.com", role = c("aut", "cre"))
+Description: Just a foobar package about cats. Now more desc will be provided later on...
+Depends: R (>= 3.3.2)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1.9000
