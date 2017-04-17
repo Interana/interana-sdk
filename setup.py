@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'foobar',
-  packages = ['foobar'], # this must be the same as the name above
+  name = 'iafoobar',
+  packages = ['iafoobar'], # this must be the same as the name above
   version = '0.3',
   description = 'A foobar lib',
   author = 'Sachin Holla',
