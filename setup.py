@@ -1,6 +1,6 @@
 from distutils.core import setup
 setup(
-  name = '',
+  name = 'foobar',
   packages = ['foobar'], # this must be the same as the name above
   version = '0.1',
   description = 'A foobar lib',
