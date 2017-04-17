@@ -26,12 +26,14 @@ class Client(object):
         params = {
             'query': query_obj.get_params()
         }
+
         response = requests.get(
             uri,
             params=params,
             headers=headers,
             verify=self._verify_certs
         )
+
         if response.status_code != 200:
             raise InteranaError(response.status_code, response.json())
         return Result(query_obj.get_type(), response.json())

@@ -34,6 +34,9 @@ def get_interana_data(token,url,days_prior,dataset,query_type,agg_type,
 		print "Query Params: ", query.get_params()
 
 	result = client.query(query)
+	if verbose_mode:
+		print result
+
 	if output_file:
 		print "-----------------------\nWriting out results to file..."
 		with open(output_file,"w") as fout:
@@ -80,7 +83,7 @@ def main():
 
     #now call the downstream method to retrieve the data
     get_interana_data(token=args.auth_token, url=args.cluster_domain,
-	days_prior=args.days_prior, dataset=args.dataset,
+	days_prior=int(args.days_prior), dataset=args.dataset,
 	query_type=args.query_type, agg_type=args.aggregator,
         verbose_mode=args.verbose, groupby_col=args.group_by, 
         filter_expr=args.filters, output_file=args.output_file,
