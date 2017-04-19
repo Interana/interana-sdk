@@ -1,13 +1,13 @@
 from distutils.core import setup
 setup(
-  name = 'iafoobar',
-  packages = ['iafoobar'], # this must be the same as the name above
-  version = '0.3',
-  description = 'A foobar lib',
+  name = 'interanasdk',
+  packages = ['interanasdk'], # this must be the same as the name above
+  version = '0.1',
+  description = 'Interana SDK',
   author = 'Sachin Holla',
   author_email = 'sachin@interana.com',
   url = 'https://github.com/Interana/interana-sdk', # use the URL to the github repo
-  download_url = 'https://github.com/Interana/interana-sdk/archive/0.3.tar.gz', # I'll explain this in a second
-  keywords = ['testing', 'foobar', 'example'], # arbitrary keywords
+  download_url = 'https://github.com/Interana/interana-sdk/archive/0.1.tar.gz', # I'll explain this in a second
+  keywords = ['interana','sdk','query-api'], # arbitrary keywords
   classifiers = [],
 )
