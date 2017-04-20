@@ -11,4 +11,7 @@ setup(
   download_url = 'https://github.com/Interana/interana-sdk/archive/0.2.tar.gz', # I'll explain this in a second
   keywords = ['interana','sdk','query-api'], # arbitrary keywords
   classifiers = [],
+  install_requires=[
+   'requests>=2.9.1'
+  ]
 )
