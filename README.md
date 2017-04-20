@@ -7,23 +7,38 @@ Being provided at a best-effort basis. So please use at your risk.
 High Level desciption of files
 ==============================
 
-* **query_sdk\python\interana_query_sdk.py** - Python implementation of Interana SDK - Provides the Interana Object as a helper to query the Interana External API as documented [here](https://docs.interania.com/Guides/Reference/External_API%3A_query)
+TBD
 
-* **ingest_sdk** - TBD
+Install
+=======
 
-* **query_sdk\ia_query_client.py** - Uses the Python SDK. Provides for further abstraction of the Interana Query API. Allows for easy access and validation to ensure that connectivity and results are as needed. Fork at will :)
+Python SDK 
+
+This can be installed by using pip directly. Dependencies will be installed automatically.
+
+`pip install interanasdk`
+
+This installs a python module called interanasdk and also, a command line script which allows for easy access to the SDK.
+
+R SDK
+
+TBD
 
 Usage
 =====
 
-* For the IA Query Client (python) script, there are three position parameters that need to be provided.
+* To access the Python SDK in code, do the following:
+`
+/usr/bin/env python
+import interanasdk
+`
+
+* To access the IA Query Client script, there are three positional parameters that need to be provided.
 In addition, there are optional parameters that can be leveraged as well.
 
 * To access Interana's Demo Cluster and do a simple count*, do:
 
-`cd ./query_sdk && pip install -r python/requirements.txt`
-
-`./ia_query_client.py tffZR6q0fbVqSBbeuvvLllLMLV0KHbuH+/DjXo9K=ER0PY/qNh+hdjEh+16DcL5Gc=BfHTJ7dE64x06YFWMbtbqtcdO90000 demo2.interana.com music`
+`ia_query_client tffZR6q0fbVqSBbeuvvLllLMLV0KHbuH+/DjXo9K=ER0PY/qNh+hdjEh+16DcL5Gc=BfHTJ7dE64x06YFWMbtbqtcdO90000 demo2.interana.com music`
 
 (note this will only work when you are on the Interana Corporate Network)
 
