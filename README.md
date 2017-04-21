@@ -47,7 +47,7 @@ ia_query_client tffZR6q0fbVqSBbeuvvLllLMLV0KHbuH+/DjXo9K=ER0PY/qNh+hdjEh+16DcL5G
 A sample output might look like this:
 
 ```
-$ ./ia_query_client.py tffZR6q0fbVqSBbeuvvLllLMLV0KHbuH+/DjXo9K=ER0PY/qNh+hdjEh+16DcL5Gc=BfHTJ7dE64x06YFWMbtbqtcdO90000 demo2.interana.com music
+$ ia_query_client.py tffZR6q0fbVqSBbeuvvLllLMLV0KHbuH+/DjXo9K=ER0PY/qNh+hdjEh+16DcL5Gc=BfHTJ7dE64x06YFWMbtbqtcdO90000 demo2.interana.com music
 -------------------------------------------
 Results recieved from Interana:
 -------------------------------------------
